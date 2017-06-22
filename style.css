@@ -645,3 +645,27 @@ li.bbp-topic-freshness {
 }
 
 /* -------------------------------------------------------------------------- */
+
+.country-page .block-links{
+	margin-bottom: 25px;
+}
+.country-page .block-links a{
+	color:#222222;
+	font-weight: 600;
+}
+.country-page .page-title{
+	color:#222222;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.country-page .content-page{
+	margin: 15px 0;
+}
+.country-page .cta-button a {
+	display: inline-block;
+	background-color:#dd0000;
+	color:#ffffff;
+	padding: 15px 35px;
+	border-radius: 5px;
+}
