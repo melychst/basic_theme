@@ -3,7 +3,7 @@
 
 	<?php while (have_posts()) : the_post(); 
 
-			get_template_part( 'content',  get_post_format() );		
+			get_template_part( 'templates/single',  'post' );		
 
 			if ( comments_open() || get_comments_number() ) {
 				do_action( 'basic_before_post_comments_area' );
