@@ -247,3 +247,9 @@ endif;
  * ========================================================================== */
  
  define("OPTION_PAGE", 751);
+
+
+function add_scripts() {
+	wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+}
+add_action('wp_enqueue_scripts', 'add_scripts');

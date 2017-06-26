@@ -669,3 +669,18 @@ li.bbp-topic-freshness {
 	padding: 15px 35px;
 	border-radius: 5px;
 }
+.container {
+	width: 100% !important;
+}
+.country-page .block-links {
+	border: #dd0000 solid 2px;
+	border-radius: 10px;
+	padding: 5px;
+}
+.country-page .block-links a {
+	font-size: 12px;
+}
+.country-page .block-links a:hover{
+	background: none;
+	color: #dd0000;
+}
